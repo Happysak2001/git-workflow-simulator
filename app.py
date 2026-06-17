@@ -28,7 +28,9 @@ def main():
         choice = show_menu()
 
         if choice == "1":
-            display_tickets(get_open_tickets(tickets), "Open Tickets")
+            open_list = get_open_tickets(tickets)
+            display_tickets(open_list, "Open Tickets")
+            print(f"Total open: {len(open_list)}")
 
         elif choice == "2":
             title = input("Enter ticket title: ")
