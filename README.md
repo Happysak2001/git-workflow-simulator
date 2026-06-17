@@ -28,3 +28,5 @@ pytest tests/ -v
 - Persistent storage via JSON
 ## Contributing
 Pull requests are welcome.
+## License
+MIT
