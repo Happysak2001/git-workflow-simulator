@@ -22,11 +22,12 @@ def get_next_id(tickets):
     return max(t["id"] for t in tickets) + 1
 
 
-def add_ticket(tickets, title):
+def add_ticket(tickets, title, priority="medium"):
     ticket = {
         "id": get_next_id(tickets),
         "title": title,
         "status": "open",
+        "priority": priority,
     }
     tickets.append(ticket)
     return ticket
