@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Set up project structure",
+    "status": "open"
+  },
+  {
+    "id": 2,
+    "title": "Add unit tests",
+    "status": "open"
+  },
+  {
+    "id": 3,
+    "title": "Configure CI pipeline",
+    "status": "open"
+  },
+  {
+    "id": 4,
+    "title": "check entire thing",
+    "status": "closed"
+  }
+]
