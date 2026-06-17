@@ -43,3 +43,9 @@ def close_ticket(tickets, ticket_id):
 
 def get_open_tickets(tickets):
     return [t for t in tickets if t["status"] == "open"]
+
+def delete_ticket(tickets, ticket_id):
+    for i, ticket in enumerate(tickets):
+        if ticket["id"] == ticket_id:
+            return tickets.pop(i)
+    return None
