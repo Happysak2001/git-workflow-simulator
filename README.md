@@ -1,3 +1,4 @@
+# version A
 # Ticket Manager CLI
 
 A simple command-line ticket manager built with Python. Created for practicing Git workflows.
