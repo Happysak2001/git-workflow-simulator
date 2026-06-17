@@ -26,3 +26,5 @@ pytest tests/ -v
 - Add new tickets
 - Close tickets
 - Persistent storage via JSON
+## Contributing
+Pull requests are welcome.
